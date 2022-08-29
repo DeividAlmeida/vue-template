@@ -1,5 +1,5 @@
 <template>
-  <div class="footer d-flex align-items-center">
+  <div class="footer">
     <div class="container">
       <div class="row">
         <div
@@ -37,11 +37,17 @@
             </li>
           </ul>
         </nav>
-      </div>
-      <div
-        class="col-12 d-flex align-items-center justify-content-between second-box"
-      >
-        <hr />
+        <div class="second-box">
+          <hr class="col-12" />
+          <div class="col-12 d-flex align-items-center justify-content-between">
+            <span>&copy; 2021 YELLOWIPE</span>
+            <img
+              role="button"
+              src="https://cdn.jsdelivr.net/gh/DeividAlmeida/assets/Social%20Links.png"
+              alt="Social Links"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -60,12 +66,18 @@ export default {};
 }
 
 .frist-box {
-  height: 100px;
+  height: 130px;
 }
-
+.second-box {
+  height: 80px;
+}
 .second-box > hr {
   width: 100%;
   height: 1px;
   color: var(--dark);
+}
+.second-box > div > span {
+  color: white;
+  font-size: 14px;
 }
 </style>

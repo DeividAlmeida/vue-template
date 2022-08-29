@@ -44,9 +44,9 @@ export default {
 
 #after-content {
   position: absolute;
-  left: 0;
+  left: -20px;
   top: 350px;
-  height: 32%;
+  height: 250px;
   width: auto;
 }
 
