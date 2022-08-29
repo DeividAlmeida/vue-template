@@ -1,5 +1,5 @@
 export interface ICard {
-  title: number;
+  title: string;
   description: string;
   icon: string;
   background: string;

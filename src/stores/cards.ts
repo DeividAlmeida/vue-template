@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import ICard from "../interfaces/ICard";
+import type { ICard } from "../interfaces/ICard";
 
 export const cardsStore = defineStore("cards", {
   state: () => {
