@@ -19,3 +19,9 @@ a {
   text-decoration: none;
   color: var(--dark);
 }
+
+.link {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}

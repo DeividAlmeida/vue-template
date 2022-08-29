@@ -36,11 +36,6 @@
 </template>
 
 <style>
-.link {
-  font-size: 14px;
-  font-weight: bold;
-  white-space: nowrap;
-}
 #bar {
   position: absolute;
   top: 92px;
