@@ -1,7 +1,9 @@
 <template>
   <div class="continer my-4">
     <div class="d-flex justify-content-center">
-      <h1 class="fw-bold" id="you-will-find">O que você vai encontrar</h1>
+      <h1 class="fw-bold text-center" id="you-will-find">
+        O que você vai encontrar
+      </h1>
     </div>
   </div>
 </template>

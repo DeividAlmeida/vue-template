@@ -41,4 +41,7 @@
   top: 92px;
   right: 20px;
 }
+#home {
+  border-bottom: solid 2px var(--yellow) ;
+}
 </style>
