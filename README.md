@@ -1,21 +1,19 @@
-# vue-template
+# Simple Vue responsive page
 
-This template should help get you started developing with Vue 3 in Vite.
+ This is a simple page powered frontend for dataset using [Vue.js](https://vuejs.org/).
 
-## Recommended IDE Setup
+## Prerequisites
+You will need [Node.js](https://nodejs.org) version 6.0 or greater installed on your system.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Setup
 
-## Type Support for `.vue` Imports in TS
+Get the code by either cloning this repository using git
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+    > git clone https://github.com/DeividAlmeida/vue-template.git
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+... or [downloading source code](https://github.com/DeividAlmeida/vue-template/archive/master.zip) code as a zip archive.
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Once downloaded, open the terminal in the project directory, and continue with:
 
 ## Customize configuration
 
@@ -44,3 +42,26 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Live Demo
+You can see a live demo [here](https://vue-template-nine.vercel.app/)
+
+## Built With
+
+* vue v3.2.37
+* vue router v4.1.3
+* vite v3.0.4
+* pinia v2.0.17
+* typescript v4.7.4
+
+## Find Us
+
+* [GitHub](https://github.com/DeividAlmeida)
+
+## Contributing
+
+Please contact me for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Deivid Almeida** 
