@@ -10,10 +10,11 @@
         <p class="mt-4 col-11">
           Estamos à procura de pessoas como você. Quer saber mais ?
         </p>
-        <button type="button" class="btn px-4">Saber mais</button>
+        <button type="button" class="btn px-4 fw-bold">Saber mais</button>
       </div>
     </div>
     <img
+      class="position-absolute"
       id="after-content"
       src="https://cdn.jsdelivr.net/gh/DeividAlmeida/assets/Group%20110.png"
       alt="after"
@@ -43,10 +44,9 @@ export default {
 }
 
 #after-content {
-  position: absolute;
-  left: -20px;
-  top: 350px;
-  height: 250px;
+  left: 0;
+  top: 360px;
+  height: 200px;
   width: auto;
 }
 
@@ -61,6 +61,7 @@ export default {
 .banner-left > div > button {
   color: #fff;
   background-color: var(--yellow);
+  font-size: 14px;
 }
 
 @media screen and (max-width: 770px) {
